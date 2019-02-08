@@ -5,6 +5,8 @@ public class Printer {
     private int pagesPrinted;
     private boolean isDuplex;
 
+
+
     public Printer(int tonerLevel,
                    int pagesPrinted,
                    boolean isDuplex) {
