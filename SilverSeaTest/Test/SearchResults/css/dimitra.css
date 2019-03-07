@@ -1,0 +1,179 @@
+:root {
+	font-family: 'Suisse Regular',sans-serif !important;
+}
+
+.seach-results * {
+	font-family: 'Freight Display Medium',serif !important;
+	background-color: #263133;
+
+}
+
+#div-collapsed{
+	position: relative;
+}
+
+#collapsable > div, #collapsable > div > div.dropdown {
+	display: inline;
+}
+
+.btn-collapse-search {
+		display: block;
+		width: 30%;
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		height: 2em;
+}
+
+#filter-form select, #dropdownShowMore{
+	font-size: 10px;
+}
+
+#search-component.centered {
+	margin: auto;
+}
+
+#more {
+	display: block;
+	text-align: left;
+}
+
+#search-menu {
+	position: relative;
+	display: inline-grid;
+	grid-template-columns: repeat(7 1fr);
+}
+
+.hidden-filters {
+	display: none;
+}
+
+.btn-primary.btn-collapse-search {
+	background-color: #333;
+	border-color: #333;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.journey{
+	grid-area: journey;
+}
+
+.departure{
+	grid-area: departure;
+}
+
+.result__content__summary__item--duration {
+	grid-area: duration;
+}
+
+.result__content__summary__item--ship {
+	grid-area: ship;
+}
+
+.result__content__itinerary {
+	grid-area: itinerary;
+}
+
+.result__content__price{
+	grid-area: price;
+}
+
+.quote-request {
+	grid-area: quote;
+}
+
+.result__content{
+	display: grid;
+	grid-template-columns: 20% 55% 25%;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	"departure journey price"
+	"duration ship ."
+	". itinerary quote";
+}
+
+
+.result__content__description.silversea-expedition{
+	display: grid;
+	/*grid-template-columns:  */
+}
+
+.result__content__itinerary > dt{
+	visibility: hidden;
+}
+
+.result__content__itinerary > dd, .result__content__itinerary > i { 
+	display: inline;
+}
+
+
+@media only screen and (max-width: 600px) {
+	#search-component.centered {
+		width: 75%;
+	}
+
+	#btn-collapse-search{
+		width: 50%;
+	}		
+}
+
+@media only screen and (min-width: 600px) {
+	#search-component.centered {
+		width: 90%;
+	}
+	#search-menu{
+		/*float: left;*/
+	}
+
+	dt.visible-xs {
+		visibility: hidden;
+	}
+} 
+
+@media only screen and (min-width: 768px) {
+	#search-component.centered {
+		width: 80%;
+	}
+
+	.btn-collapse-search{
+		display: none;
+	}
+
+	select {
+		width: 80px;
+	}
+} 
+
+@media only screen and (min-width: 992px) {
+	.btn-collapse-search{
+		display: none;
+	}
+	select {
+		width: 90px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	#search-component.centered {
+		width: 50%;
+	}
+
+	.btn-collapse-search{
+		display: none;
+	}
+	
+	select {
+		width: 100px;
+	}
+}
