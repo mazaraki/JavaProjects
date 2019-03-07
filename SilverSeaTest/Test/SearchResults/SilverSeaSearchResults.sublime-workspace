@@ -1,0 +1,624 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"grid-tem",
+				"grid-template-areas\tproperty"
+			],
+			[
+				"long",
+				"longitude"
+			],
+			[
+				"lat",
+				"latitude"
+			],
+			[
+				"get",
+				"getCurrentPosition"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"word",
+				"word-wrap"
+			],
+			[
+				"conta",
+				"contact"
+			],
+			[
+				"lar",
+				"larger"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"javascr",
+				"javascript"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"col",
+				"col-lg-3"
+			],
+			[
+				"location",
+				"location"
+			],
+			[
+				"loade",
+				"loader-body"
+			],
+			[
+				"anima",
+				"animation-delay"
+			],
+			[
+				"siz",
+				"font-size"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"inli",
+				"inline"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"sty",
+				"outline-style"
+			],
+			[
+				"inlin",
+				"inline-table"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"nam",
+				"name"
+			],
+			[
+				"age",
+				"age1"
+			],
+			[
+				"name",
+				"name2"
+			],
+			[
+				"demo",
+				"demo1"
+			],
+			[
+				"ob",
+				"obj1"
+			],
+			[
+				"obj",
+				"obj2"
+			],
+			[
+				"n",
+				"name1"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"wra",
+				"word-wrap"
+			],
+			[
+				"backr-c",
+				"background-color"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"ele",
+				"elem1"
+			],
+			[
+				"thi",
+				"thisthis"
+			],
+			[
+				"x",
+				"xx-large"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"border-rig",
+				"border-right-style"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"table",
+				"table-row"
+			],
+			[
+				"ta",
+				"table-header-group"
+			],
+			[
+				"ho",
+				"hover-sitemap"
+			],
+			[
+				"lagkadiki",
+				"lagkadikia_dimosio_nipiagogio"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"url",
+				"url"
+			],
+			[
+				"loca",
+				"locations"
+			],
+			[
+				"spa",
+				"word-spacing"
+			],
+			[
+				"marker",
+				"markerCamp"
+			],
+			[
+				"setmarke",
+				"setMarkersCamps"
+			],
+			[
+				"ΘΕΣΣ",
+				"Θεσσαλονίκης"
+			],
+			[
+				"οδό",
+				"Οδός"
+			],
+			[
+				"λαγκ",
+				"Λαγκαδάς"
+			],
+			[
+				"οδ",
+				"Οδός"
+			],
+			[
+				"pin",
+				"pinColor4"
+			],
+			[
+				"ic",
+				"iconBase"
+			],
+			[
+				"Θεσσα",
+				"Θεσσαλονίκης"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 733639,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/dimitra.css",
+			"settings":
+			{
+				"buffer_size": 394,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/clientlib-base.min.cff216f0d14947dbf26f221be1e0f516.css",
+			"settings":
+			{
+				"buffer_size": 566494,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 329.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/C O D I N G/SilverSeaTest/Test/SearchResults",
+		"/D/C O D I N G/SilverSeaTest/Test/SearchResults/css"
+	],
+	"file_history":
+	[
+		"/D/C O D I N G/BinaryTReeAlgorithm.js",
+		"/D/C O D I N G/SilverSeaTest/silver-moon.html",
+		"/D/C O D I N G/SilverSeaTest/australia-new-zealand-cruise.html",
+		"/D/C O D I N G/SilverSeaTest/Test/index.js",
+		"/D/C O D I N G/SilverSeaTest/Test/node_modules/index.js",
+		"/D/C O D I N G/WeatherApp/index2.html",
+		"/C/Users/philos17/Dropbox/sublime files/WeatherWebApp/js/myjs.js",
+		"/C/Users/philos17/Dropbox/sublime files/WeatherWebApp/js/hamb.js",
+		"/C/Users/philos17/Dropbox/sublime files/WeatherWebApp/index.html",
+		"/C/Users/philos17/Dropbox/sublime files/WeatherWebApp/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css",
+		"/C/Users/philos17/Dropbox/sublime files/WeatherWebApp/index2.html",
+		"/C/Users/philos17/Dropbox/sublime files/WeatherWebApp/loader.html",
+		"/C/Users/philos17/Dropbox/sublime files/WeatherWebApp/search2.html",
+		"/C/Users/philos17/Dropbox/sublime files/WeatherWebApp/js/cityAutoComplete.js",
+		"/C/Users/philos17/Dropbox/sublime files/WeatherWebApp/documentation.txt",
+		"/C/Users/philos17/Dropbox/sublime files/WeatherWebApp/bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.css",
+		"/C/Users/philos17/Dropbox/psw.txt",
+		"/C/Users/philos17/Dropbox/sitemaps/router.php",
+		"/C/Users/philos17/Dropbox/images/snapshots/Diavata/11-7-2017_Diavata_oikogeneiakos_programmatismos_thilasmos/text.txt",
+		"/C/Users/philos17/Dropbox/images/snapshots/Veria/19-7-2017_αμλ/labelsEN.txt",
+		"/C/Users/philos17/Dropbox/images/snapshots/Diavata/4-7-2017_Diavata_maia_exetasi/labels.txt",
+		"/C/Users/philos17/Dropbox/images/snapshots/Diavata/4-7-2017_Diavata_maia_exetasi/labelsEN.txt",
+		"/C/Users/philos17/Dropbox/images/snapshots/Diavata/4-7-2017_Diavata_maia_exetasi/4-7-2017.txt",
+		"/C/Users/philos17/Dropbox/images/snapshots/Diavata/5-6-2017_Diavata_odeio/5-6-2017.txt",
+		"/C/Users/philos17/Dropbox/images/snapshots/Diavata/5-6-2017_Diavata-kallitexnika/5-6-2017.txt",
+		"/C/Users/philos17/Dropbox/images/snapshots/Diavata/4-7-2017_Diavata_radiofono_mathimata/4-7-2017.txt",
+		"/C/Users/philos17/Dropbox/images/iounios_12_2017_maria_/labelsEN.txt",
+		"/C/Users/philos17/Dropbox/images/iounios_7_2017_alexandria_imathias/labels.txt",
+		"/C/Users/philos17/Dropbox/images/snapshots/Filippiada_19-6-2017/labelsEN.txt",
+		"/C/Users/philos17/Dropbox/images/snapshots/Filippiada_19-6-2017/labels.txt",
+		"/C/Users/philos17/Dropbox/articles/snapshots/lagkadikia_nipiagogio/labelsEN.txt",
+		"/C/Users/philos17/Dropbox/articles/snapshots/lagkadikia_nipiagogio/labels.txt",
+		"/C/Users/philos17/Dropbox/articles/snapshots/lagkadikia_dianomi_rouxon/labelsEN.txt",
+		"/C/Users/philos17/Dropbox/sublime files/isf.html",
+		"/C/Users/philos17/Dropbox/sublime files/specactions.html",
+		"/C/Users/philos17/Dropbox/sublime files/table.html",
+		"/C/Users/philos17/Downloads/your-first-pwapp-master/your-first-pwapp-master/README.md",
+		"/C/Users/philos17/Dropbox/images/imerides_OK/labels.txt",
+		"/C/Users/philos17/Dropbox/mine/mext/Yποτροφίες Μonbukagakusho (ΜΕΧΤ)",
+		"/C/Users/philos17/Dropbox/images/sostratos_8_5_2017/labels.txt",
+		"/C/Users/philos17/Dropbox/articles/snapshots/lagkadikia_dianomi_rouxon/labels.txt",
+		"/C/Users/philos17/Downloads/dummy.htm",
+		"/C/Users/philos17/Dropbox/mine/links",
+		"/C/Users/philos17/Dropbox/sublime files/metatags.html",
+		"/C/Users/philos17/Dropbox/labels2.txt",
+		"/C/Users/philos17/Dropbox/labels.txt",
+		"/C/Users/philos17/Dropbox/sublime files/maps/fil2",
+		"/C/Users/philos17/Dropbox/sublime files/article.html",
+		"/C/Users/philos17/Dropbox/sublime files/1.html",
+		"/C/Users/philos17/Dropbox/colors.txt",
+		"/C/Users/philos17/Documents/sublime files/mapGr.js",
+		"/C/Users/philos17/Documents/sublime files/lastC'ustom.css",
+		"/C/Users/philos17/Documents/sublime files/textFormat.html",
+		"/C/Users/philos17/Documents/sublime files/test.html"
+	],
+	"find":
+	{
+		"height": 41.6
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"DM --",
+			"caret",
+			"san juan",
+			"c-fyc-v2__result\"",
+			"old\"",
+			"old",
+			"boots",
+			"c-fyc-v2__result-wrapper",
+			"css",
+			"c-fyc-v2__result-wrapper",
+			"find",
+			"find-mo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "D:\\C O D I N G\\SilverSeaTest\\Test\\SearchResults"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 733639,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								604723,
+								604723
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 172220.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/dimitra.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 394,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								24
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/clientlib-base.min.cff216f0d14947dbf26f221be1e0f516.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 566494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 320.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
