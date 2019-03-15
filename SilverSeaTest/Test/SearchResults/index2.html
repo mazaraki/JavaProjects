@@ -81,7 +81,7 @@
             <form id="filter-form" action="/" data-limit="10">
 
                 <div id="div-collapsed"><a id="btn-collapse-search" class="btn btn-primary btn-collapse-search" role="button" data-toggle="collapse" href="#collapsable" aria-expanded="false" aria-controls="collapsable" onclick="showMoreOptions()">SHOW OPTIONS</a></div>
-                <div id="collapsable" class="filters-container">
+                <div id="collapsable" class="filters-container collapse">
                     <div class="single-filter destination-tracking">
                     <select name="destination" id="" class="selections text-uppercase btn">
                         <option value="all">DESTINATION</option>
@@ -237,6 +237,123 @@
           </div> <!-- end of search menu -->
 
           <!-- results -->
+<!--  -->
+
+<!-- <div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-6 col-sm-3">
+        <div class="result">
+            <div class="wrapper">
+                <div class="result__image" style="background-image: url(images/79051.jpg);display: none;">
+                    <span class="flag">
+                        <span class="flag__icon icon-star"></span>
+                        <span class="flag__text">exclusive offer</span>
+                    </span>
+                </div>
+                <div class="result__content">
+                    <div class="result__content__inner">
+                        <div class="journey">
+                            <span class="result__content__title">VALPARAISO <em class="text-lowercase">To</em> EASTER ISLAND</span>
+                        </div>
+                        <ul class="result__content__description silversea-expedition">
+                            <li class="cruise-ship hidden-xs" data-shipname="silver-explorer"><strong>Silver Explorer</strong></li>
+                            <li class="cruise-destination" data-destinationname="south-america-cruise">South America</li>
+                            <li class="cruise-type" data-cruisetype="silversea-expedition">Silversea Expeditions</li>
+                            <li class="cruise-code hidden-xs"><strong>7905</strong></li>
+
+                            <li class="meta_feature_inner hidden-xs">
+                                <span class="feature">
+                                    <i class="icon-star"></i> Offer
+                                    <span class="tooltip"><i></i>Exclusive Offer</span>
+                                </span>
+                                <span class="feature">
+                                    <i class="icon-shield-v"></i>
+                                    <span class="tooltip"><i></i>Venetian Society</span>
+                                </span>
+
+                            </li>
+                        </ul>
+                        <ul class="result__content__summary clearfix">
+                            <li class="result__content__summary__item departure">
+                                <dl>
+                                    <dt class="visible-xs">Departure</dt>
+                                    <dd data-date="2019-03-07">
+                                        <i class="fa fa-calendar-o hidden-xs"></i><strong>Mar 07,</strong> 2019
+                                    </dd></i>
+                                </dl>
+                            </li>
+                            <li class="result__content__summary__item result__content__summary__item--duration">
+                                <dl>
+                                    <dt class="visible-xs">Duration</dt>
+                                    <dd><i class="fa fa-clock-o hidden-xs"></i><strong>9</strong> Days</dd>
+                                </dl>
+                            </li>
+                            <li class="result__content__summary__item result__content__summary__item--ship visible-xs">
+                                <dl>
+                                    <dt>Ship</dt>
+                                    <dd><strong class="text-capitalize">Silver Explorer</strong></dd>
+                                </dl>
+                            </li>
+                        </ul>
+                        <div class="result__content__feature hidden-xs">
+                            <ul>
+                                
+                                <li class="meta_feature_inner">
+                                    <span class="feature">
+                                        <i class="icon-shield-v"></i>
+                                        <span class="tooltip"><i></i>Venetian Society</span>
+                                    </span>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <dl class="result__content__itinerary hidden-xs">
+                            <dt>Itinerary</dt>
+                            
+                                <dd>VALPARAISO</dd><i class="fas fa-chevron-right"></i>
+                                <dd>DAY AT SEA</dd><i class="fas fa-chevron-right"></i>
+                                <dd>ROBINSON CRUSOE ISLAND</dd><i class="fas fa-chevron-right"></i>
+                                <dd>ALEXANDER SELKIRK ISLAND</dd><i class="fas fa-chevron-right"></i>
+                                <dd>DAY AT SEA</dd><i class="fas fa-chevron-right"></i>
+                                <dd>DAY AT SEA</dd><i class="fas fa-chevron-right"></i>
+                                <dd>DAY AT SEA</dd><i class="fas fa-chevron-right"></i>
+                                <dd>DAY AT SEA</dd><i class="fas fa-chevron-right"></i>
+                                <dd>ISLA SALAS Y GOMEZ</dd><i class="fas fa-chevron-right"></i>
+                                <dd>EASTER ISLAND</dd><i class="fas fa-chevron-right"></i>
+                        </dl>
+                    </div>
+                    <p class="result__content__price "><strong>Waitlist</strong></p>
+                    <p class="result__content__button quote-request text-center">
+                        <a href="/request-quote.s.html/7905.html" class="btn btn-red effect btn-thin" data-sscclicktype="clic-RAQ">
+                            <span>request a quote</span> <i class="fa fa-lg fa-angle-right"></i>
+                        </a>
+                        <a href="/destinations/south-america-cruise/valparaiso-to-easter-island-7905.html" class="btn effect c-fyc-btn-discover-more ab-test-v2-show" data-sscclicktype="clic-results-viewmore">View more </a>
+                    </p>
+                </div>
+            </div>
+            <a class="result__link" href="/destinations/south-america-cruise/valparaiso-to-easter-island-7905.html"></a>
+        </div>
+      Column 1<br>
+      Resize the browser window to see the effect. Also try to remove the div clearfix line and see what happens.
+      <div class="col-xs-6 col-sm-3" style="background-color:lavender;">
+      Column 1<br>
+      Resize the browser window to see the effect. Also try to remove the div clearfix line and see what happens.
+    </div>
+    <div class="col-xs-6 col-sm-3" style="background-color:lavenderblush;">Column 2</div>
+    Add clearfix for only the required viewport 
+    <div class="clearfix visible-xs"></div>
+    <div class="col-xs-6 col-sm-3" style="background-color:lightcyan;">Column 3</div>
+    <div class="col-xs-6 col-sm-3" style="background-color:lightgray;">Column 4</div>
+    </div>
+    <div class="col-xs-6 col-sm-3" style="background-color:lavenderblush;">Column 2</div>
+     Add clearfix for only the required viewport 
+    <div class="clearfix visible-xs"></div>
+    <div class="col-xs-6 col-sm-3" style="background-color:lightcyan;">Column 3</div>
+    <div class="col-xs-6 col-sm-3" style="background-color:lightgray;">Column 4</div>
+  </div>
+</div> -->
+
+          <!--  -->
           <div class="search-results-list">
           <div class="result">
             <div class="wrapper">

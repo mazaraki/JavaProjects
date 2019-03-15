@@ -682,32 +682,8 @@ setTimeout(function(){
     
     <form id="filter-form-v2" class="c-fyc-v2-filter__form" action="/" autocomplete="off" data-url="/find-a-cruise/cruise-results/_jcr_content/par/findyourcruise.resultsv2" data-limit="10" data-lang="en">
         <div class="v2-filter-wrapper collapse clearfix" id="v2-filter-collapse">
-            <div class="single-filter destination-tracking">
-                <select class="chosen destination-filter" name="destination">
-                    <option value="all">Destination</option>
-                    <option value="africa-indian-ocean-cruise">Africa and Indian Ocean</option>
-<option value="alaska-cruise">Alaska</option>
-<option value="american-west-coast-cruise">American West Coast</option>
-<option value="antarctica-cruise">Antarctica</option>
-<option value="arctic-greenland-cruise">Arctic &amp; Greenland</option>
-<option value="asia-cruise">Asia</option>
-<option value="australia-new-zealand-cruise">Australia &amp; New Zealand</option>
-<option value="canada-new-england-cruise">Canada &amp; New England</option>
-<option value="central-america-caribbean-cruise">Caribbean &amp; Central America</option>
-<option value="galapagos-islands-cruise">Galápagos Islands</option>
-<option value="mediterranean-cruise">Mediterranean</option>
-<option value="northern-europe-british-isles-cruise">Northern Europe &amp; British Isles</option>
-<option value="russian-far-east-cruise">Russian Far East</option>
-<option value="south-america-cruise">South America</option>
-<option value="south-pacific-islands-cruise">South Pacific Islands</option>
-<option value="transoceanic-cruise">Transoceanic</option>
-
-                   <option value="wc" data-ssc-link="/destinations/world-cruise.html">World Cruises</option>
-                    <option value="gv" data-ssc-link="/destinations/grand-voyages-cruise.html">Grand Voyages</option>
-                </select>
-            </div>
-
-            <div class="single-filter date-tracking">
+<!-- DM -->
+      <div class="single-filter date-tracking">
                 <select class="chosen date-filter" name="date">
                     <option value="all">Departure</option>
                     <option value="2019-03">
@@ -809,6 +785,7 @@ setTimeout(function(){
 
                 </select>
             </div>
+
             <div class="single-filter duration-tracking">
                 <select class="chosen duration-filter" name="duration">
                     <option value="all">Duration</option>
@@ -818,6 +795,34 @@ setTimeout(function(){
                     <option value="19">19+ Days</option>
                 </select>
             </div>
+
+        	<!--  -->
+            <div class="single-filter destination-tracking">
+                <select class="chosen destination-filter" name="destination">
+                    <option value="all">Destination</option>
+                    <option value="africa-indian-ocean-cruise">Africa and Indian Ocean</option>
+<option value="alaska-cruise">Alaska</option>
+<option value="american-west-coast-cruise">American West Coast</option>
+<option value="antarctica-cruise">Antarctica</option>
+<option value="arctic-greenland-cruise">Arctic &amp; Greenland</option>
+<option value="asia-cruise">Asia</option>
+<option value="australia-new-zealand-cruise">Australia &amp; New Zealand</option>
+<option value="canada-new-england-cruise">Canada &amp; New England</option>
+<option value="central-america-caribbean-cruise">Caribbean &amp; Central America</option>
+<option value="galapagos-islands-cruise">Galápagos Islands</option>
+<option value="mediterranean-cruise">Mediterranean</option>
+<option value="northern-europe-british-isles-cruise">Northern Europe &amp; British Isles</option>
+<option value="russian-far-east-cruise">Russian Far East</option>
+<option value="south-america-cruise">South America</option>
+<option value="south-pacific-islands-cruise">South Pacific Islands</option>
+<option value="transoceanic-cruise">Transoceanic</option>
+
+                   <option value="wc" data-ssc-link="/destinations/world-cruise.html">World Cruises</option>
+                    <option value="gv" data-ssc-link="/destinations/grand-voyages-cruise.html">Grand Voyages</option>
+                </select>
+            </div>
+
+      
             <div class="single-filter ship-tracking">
                 <select class="chosen ship-filter" name="ship">
                     <option value="all">Ship</option>
@@ -1866,14 +1871,19 @@ setTimeout(function(){
                                 
                             
                                 <span>BRIDGETOWN</span>
+                                <!-- DM -->
+                                <a id="show-more" class="btn btn-primary" data-toggle="collapse" href="#collapsable-dest" data-target="#collapsable-dest" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                	<i id="show-more-caret" class="material-icons">keyboard_arrow_down</i>
+                                </a>
                             
                         </li>
                         <li class="cruise-ship_2 hidden-xs" data-shipname="silver-wind">Silver Wind</li>
                         <li class="cruise-type" data-cruisetype="silversea-cruise">Silversea Cruises</li>
-
+					
 
                         <li class="destination-ports">
-                            <div class="c-fyc-v2__result__content__itinerary__ports">
+                        	<!-- DM  -->
+                            <div id="collapsable-dest" class="c-fyc-v2__result__content__itinerary__ports collapse">
                                 
                                     <span>SAN JUAN</span>
                                     <i class="c-fyc-v2__result__content__itinerary__next-port-symbol fa fa-angle-right"></i>
@@ -1930,6 +1940,14 @@ setTimeout(function(){
 
                             <a href="/request-quote.s.html/2908.html" class="btn btn-red effect btn-thin" data-sscclicktype="clic-RAQ">request a quote
 					</a> <a href="/destinations/central-america-caribbean-cruise/san-juan-to-bridgetown-2908.html" class="btn effect c-fyc-btn-discover-more ab-test-v2-show" data-sscclicktype="clic-results-viewmore">View more </a>
+
+					  	<!-- DM -->
+                                <a class="watch-later" href="#">
+                                	<i class="material-icons">
+                                		visibility
+                                	</i>
+                                </a>
+                                <!--  -->
                         </div>
 
                     </div>
@@ -11046,7 +11064,7 @@ setTimeout(function(){
                             <!-- DM -->
 
 							<!-- <i class="fas fa-caret-down">read more</i> -->
-                            <i class="material-icons">keyboard_arrow_down</i>
+                            <!-- <i class="material-icons">keyboard_arrow_down</i> -->
                             <!--  -->
                             <li class="cruise-destination" data-destinationname="central-america-caribbean-cruise">SAN JUAN
                                 <span class="cruise-infix">To</span>
@@ -12765,6 +12783,17 @@ setTimeout(function(){
 
     
 </div></div>
+
+
+<!-- DM -->
+<!-- to top -->
+<div id="div-to-top">	
+	<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Return to top" data-toggle="tooltip" data-placement="left">
+		<i id="going-up" class="material-icons" clickable>arrow_upward</i>
+	</a>
+</div>
+
+<!--  -->
 </div>
 <footer class="c-footer" id="footer">
 

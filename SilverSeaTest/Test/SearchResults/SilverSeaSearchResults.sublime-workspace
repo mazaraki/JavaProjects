@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"getelemt",
+				"getElementsByTagName\tmethod"
+			],
+			[
+				"geelem",
+				"getElementsByTagName\tmethod"
+			],
+			[
+				"class",
+				"className\tproperty"
+			],
+			[
+				"Silversea",
+				"Silversea"
+			],
+			[
 				"grid-tem",
 				"grid-template-areas\tproperty"
 			],
@@ -267,27 +283,38 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 733639,
+				"buffer_size": 733669,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "css/dimitra.css",
+			"file": "index2.html",
 			"settings":
 			{
-				"buffer_size": 394,
+				"buffer_size": 21860,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/clientlib-base.min.cff216f0d14947dbf26f221be1e0f516.css",
+			"file": "js/custom.js",
 			"settings":
 			{
-				"buffer_size": 566494,
+				"buffer_size": 493,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta http-equiv=\"content-type\" content=\"text/html\">\n    <meta charset=\"UTF-8\">\n    <title>Cruise Results | Silversea</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"description\" content=\"Adventurous, relaxed or both? Find the luxury cruise most suitable for your taste and explore all 7 continents and over 900 fascinating destinations on our all-inclusive cruises.\">\n    <meta name=\"keywords\" content=\"SilverSea, cruise, luxury cruises, expedition cruises, Monaco, London, Miami, Singapore\">\n    \n    <!-- Open Graph meta tags -->\n    <meta property=\"og:title\" content=\"Cruise Results | Silversea\">\n    <meta property=\"og:description\" content=\"Adventurous, relaxed or both? Find the luxury cruise most suitable for your taste and explore all 7 continents and over 900 fascinating destinations on our all-inclusive cruises.\">\n    <meta property=\"og:image\" content=\"images/ss5711-BW-zoomedout1.jpg\">\n    <meta property=\"og:url\" content=\"https://www.silversea.com/find-a-cruise/cruise-results.html\">\n    <meta property=\"og:site_name\" content=\"Silversea\">\n    <!-- Twitter -->\n    <meta name=\"twitter:title\" content=\"Cruise Results | Silversea\">\n    <meta name=\"twitter:description\" content=\"Adventurous, relaxed or both? Find the luxury cruise most suitable for your taste and explore all 7 continents and over 900 fascinating destinations on our all-inclusive cruises.\">\n    <meta name=\"twitter:image\" content=\"images/ss5711-BW-zoomedout1.jpg\">\n\n    <!-- robots -->\n    <meta  name=\"robots\" content=\"noindex, nofollow\">\n\n    <!-- google analytics -->\n    <!-- Global Site Tag (gtag.js) - Google Analytics -->\n    <!-- not set -->\n    <script async src=\"https://www.googletagmanager.com/gtag/js?id=TRACKING_ID\"></script>\n\n    <script>\n      window.dataLayer = window.dataLayer || [];\n      function gtag(){dataLayer.push(arguments);}\n      gtag('js', new Date());\n      gtag('config', 'TRACKING_ID');\n    </script>\n \n    <!-- favicons -->\n    <link rel=\"icon\" type=\"image/vnd.microsoft.icon\" href=\"favicon.ico\">\n    <link rel=\"shortcut icon\" type=\"image/vnd.microsoft.icon\" href=\"favicon.ico\">\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"images/apple-touch-icon.png\">\n    <link rel=\"icon\" type=\"image/png\" href=\"images/favicon-16x16.png\" sizes=\"16x16\">\n    <link rel=\"icon\" type=\"image/png\" href=\"images/favicon-32x32.png\" sizes=\"32x32\">\n    <link rel=\"icon\" type=\"image/png\" href=\"images/favicon-194x194.png\" sizes=\"194x194\">\n    <link rel=\"icon\" type=\"image/png\" href=\"images/android-chrome-192x192.png\" sizes=\"192x192\">\n    <link rel=\"manifest\" href=\"/etc/designs/silversea-com/manifest.json\">\n    <link rel=\"mask-icon\" href=\"fonts/safari-pinned-tab.svg\" color=\"#5bbad5\">\n    \n    <!-- stylesheets -->\n\n    <!-- DM -->\n    <!-- <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\"> -->\n    <link rel=\"stylesheet\" href=\"css/main.min.731db1757391070f3ea2ead82acaf408.css\" type=\"text/css\">\n    <link rel=\"stylesheet\" href=\"clientlib-base.min.612d2b2eb1fbfc076b9272b5c56daa75.css\">\n    <link rel=\"stylesheet\" href=\"css/dimitra.css\">\n\n    <!-- JS -->\n   <!--  <script type=\"text/javascript\" src=\"js/jquery.min.6f7f4a8e44e1862943a5892fcd366c15.js\"></script>\n    <script type=\"text/javascript\" src=\"js/utils.min.05f45eed7bacfd45ffa8e84badecd2ce.js\"></script>\n    <script type=\"text/javascript\" src=\"js/granite.min.ef01e4cc9e3f3bf55622b61097176300.js\"></script>\n    <script type=\"text/javascript\" src=\"js/jquery.min.26df26a88f9f71ceabb6a15e7cb9c550.js\"></script>\n    <script type=\"text/javascript\" src=\"js/shared.min.06a50b23d97647c86982b7801a20508a.js\"></script>\n    <script type=\"text/javascript\" src=\"js/main.min.e2198d73b3e90f0b787085da720eb46e.js\"></script> -->\n\n</head>\n<body>\n  <h1>hello world</h1>\n  <header>\n      <nav>\n          <a href=\"\">submenu 1</a>\n          <a href=\"\">submenu 1</a>\n          <a href=\"\">submenu 1</a>\n          <a href=\"\">submenu 1</a>\n      </nav>\n\n      <div id=\"search-component\">\n          <div class=\"search-results\">\n            <h4>YOUR SEARCH RESULTS: 574 CRUISES</h4>\n          </div>\n          <div id=\"search-menu\">\n            <form id=\"filter-form\" action=\"/\" data-limit=\"10\">\n                <div id=\"collapsable\">\n                    <div class=\"single-filter destination-tracking\">\n                    <select name=\"destination\" id=\"\" class=\"selections btn\">\n                        <option value=\"all\">DESTINATION</option>\n                        <option value=\"africa-indian-ocean\">\n                            Africa &amp; Indian Ocena\n                        </option>\n                        <option value=\"alaska-cruise\">Alaska</option>\n                        <option value=\"american-west-coast-cruise\">American West Coast</option>\n                        <option value=\"antarctica-cruise\">Antarctica</option>\n                        <option value=\"arctic-greenland-cruise\">Arctic &amp; Greenland</option>\n                        <option value=\"asia-cruise\">Asia</option>\n                        <option value=\"australia-new-zealand-cruise\">Australia &amp; New Zealand</option>\n                        <option value=\"canada-new-england-cruise\">Canada &amp; New England</option>\n                        <option value=\"central-america-caribbean-cruise\">Caribbean &amp; Central America</option>\n                        <option value=\"galapagos-islands-cruise\">Galápagos Islands</option>\n                        <option value=\"mediterranean-cruise\">Mediterranean</option>\n                        <option value=\"northern-europe-british-isles-cruise\">Northern Europe &amp; British Isles</option>\n                        <option value=\"russian-far-east-cruise\">Russian Far East</option>\n                        <option value=\"south-america-cruise\">South America</option>\n                        <option value=\"south-pacific-islands-cruise\">South Pacific Islands</option>\n                        <option value=\"transoceanic-cruise\">Transoceanic</option>\n                        <option value=\"wc\" data-ssc-link=\"/destinations/world-cruise.html\">World Cruises</option>\n                        <option value=\"gv\" data-ssc-link=\"/destinations/grand-voyages-cruise.html\">Grand Voyages</option>\n                    </select>\n                </div>\n\n                <div class=\"single-filter date-tracking\">\n                    <select class=\"chosen date-filter\" name=\"date\">\n                        <option value=\"all\">Departure</option>\n                        <option value=\"2019-03\">March 2019</option>\n                        <option value=\"2019-04\">April 2019</option>\n                        <option value=\"2019-05\">May 2019</option>\n                        <option value=\"2019-06\">June 2019</option>\n                        <option value=\"2019-07\">July 2019</option>\n                        <option value=\"2019-08\">August 2019</option>\n                        <option value=\"2019-09\">September 2019</option>\n                        <option value=\"2019-10\">October 2019</option>\n                        <option value=\"2019-11\">November </option>\n                        <option value=\"2019-12\">December 2019</option>\n                        <option value=\"2020-01\">January 2020</option>\n                        <option value=\"2020-02\">February 2020</option>\n                        <option value=\"2020-03\">March 2020</option>\n                        <option value=\"2020-04\">April 2020</option>\n                        <option value=\"2020-05\">May 2020</option>\n                        <option value=\"2020-06\">June 2020</option>\n                        <option value=\"2020-07\">July 2020</option>\n                        <option value=\"2020-08\">August 2020</option>\n                        <option value=\"2020-09\">September 2020</option>\n                        <option value=\"2020-10\">October 2020</option>\n                        <option value=\"2020-11\">November 2020</option>\n                        <option value=\"2020-12\">December 2020</option>\n                        <option value=\"2021-01\">January 2021</option>\n                        <option value=\"2021-02\">February 2021</option>\n                    </select>\n                </div>\n\n                <div class=\"single-filter duration-tracking\">\n                <select class=\"chosen duration-filter\" name=\"duration\">\n                    <option value=\"all\">Duration</option>\n                    <option value=\"1-8\">1-8 Days</option>\n                    <option value=\"9-12\">9-12 Days</option>\n                    <option value=\"13-18\">13-18 Days</option>\n                    <option value=\"19\">19+ Days</option>\n                </select>\n            </div>\n\n            <div class=\"single-filter ship-tracking\">\n                <select class=\"chosen ship-filter\" name=\"ship\">\n                    <option value=\"all\">Ship</option>\n                    <option value=\"silver-cloud-expedition\">Silver Cloud</option>\n                    <option value=\"silver-discoverer\">Silver Discoverer</option>\n                    <option value=\"silver-explorer\">Silver Explorer</option>\n                    <option value=\"silver-galapagos\">Silver Galapagos</option>\n                    <option value=\"silver-moon\">Silver Moon</option>\n                    <option value=\"silver-muse\">Silver Muse</option>\n                    <option value=\"silver-shadow\">Silver Shadow</option>\n                    <option value=\"silver-spirit\">Silver Spirit</option>\n                    <option value=\"silver-whisper\">Silver Whisper</option>\n                    <option value=\"silver-wind\">Silver Wind</option>\n                </select>\n            </div>\n\n            <div class=\"single-filter cruisetype-tracking\">\n                <select class=\"chosen cruisetype-filter\" name=\"cruisetype\">\n                    <option value=\"all\">cruise type</option>\n                    <option value=\"silversea-cruise\" data-value=\"silversea-cruise\">Silversea Cruises</option>\n                    <option value=\"silversea-expedition\" data-value=\"silversea-expedition\">Silversea Expeditions</option>\n                </select>\n            </div>\n\n            <div class=\"single-filter port-tracking\">\n                <select class=\"chosen chosen-with-search port-filter\" name=\"port\">\n                    <option value=\"all\">Port</option>\n                    <option value=\"aalborg\">AALBORG</option>\n                    <option value=\"aapilattoq\">AAPPILATTOQ (Kujalleq)</option>\n                    <option value=\"aberdeen0\">ABERDEEN</option>\n                    <option value=\"abidjan\">ABIDJAN</option>\n                    <option value=\"abu-dhabi\">ABU DHABI</option>\n                    <option value=\"aburatsu\">ABURATSU</option>\n                    <option value=\"tema-accra\">ACCRA (Tema)</option>\n                    <option value=\"ad-dakhla\">AD DAKHLA</option>\n                    <option value=\"adamstown-pitcairn-island\">ADAMSTOWN (Pitcairn Island)</option>\n                    <option value=\"agadir\">AGADIR</option>\n                    <option value=\"agats-asmat-expedition\">AGATS (Asmat)</option>\n                    <option value=\"aghiyuk-island-semedi-islands\">AGHIYUK ISLAND (Semedi Islands)</option>\n                    <option value=\"agios-nikolaos-crete\">AGIOS NIKOLAOS (Crete)</option>\n                    <option value=\"aiduma-island\">AIDUMA ISLAND</option>\n                    <option value=\"ainsworth-bay\">AINSWORTH BAY</option>\n                    <option value=\"airlie-beach\">AIRLIE BEACH</option>\n                    <option value=\"aitutaki\">AITUTAKI</option>\n                    <option value=\"ajaccio-corsica\">AJACCIO (Corsica)</option>\n                    <option value=\"akhmatov-gulf-severnia-zemlia\">AKHMATOV GULF (Severnia Zemlia)</option>\n                    <option value=\"akpatok-island\">AKPATOK ISLAND (Nunavut)</option>\n                    <option value=\"akureyri\">AKUREYRI</option>\n                    <option value=\"al-manamah\">AL MANAMAH</option>\n                    <option value=\"albero-de-agostini-national-park\">ALBERTO DE AGOSTINI NATIONAL PARK</option>\n                    <option value=\"alert-bay-british-columbia\">ALERT BAY (British Columbia)</option>\n                    <option value=\"alexander-selkirk-island\">ALEXANDER SELKIRK ISLAND</option>\n                    <option value=\"alghero-sardinia\">ALGHERO (Sardinia)</option>\n                    <option value=\"alofi\">ALOFI</option>\n                    <option value=\"alotau\">ALOTAU</option>\n                    <option value=\"amalfi\">AMALFI</option>\n                    <option value=\"ambrym-island\">AMBRYM ISLAND</option>\n                    <option value=\"amsterdam\">AMSTERDAM</option>\n                    <option value=\"anadyr\">ANADYR</option>\n                    <option value=\"anak-krakatoa\">ANAK KRAKATOA</option>\n                    <option value=\"anano-island\">ANANO ISLAND</option>\n                    <option value=\"anastasiya-bay\">ANASTASIYA BAY</option>\n                    <option value=\"andalsnes\">ANDALSNES</option>\n                </select>\n                <div class=\"single-filter feature-tracking\">\n                    <div class=\"dropdown\">\n                        <button class=\"ntn btn-block dropown-toggle\" type=\"button\" data-toggle=\"dropdown\">\n                            <span>MORE</span>\n                            <i class=\"fa fa-angle-down\"></i>\n                        </button>\n                        \n                    </div>\n                    \n                </div>\n            </div>\n\n\n            </form>\n              \n          </div>\n      </div>\n  </header>\n</body>\n</html>",
+			"file": "index3.html",
+			"file_size": 13863,
+			"file_write_time": 131963889030043500,
+			"settings":
+			{
+				"buffer_size": 13623,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -332,10 +359,18 @@
 	"expanded_folders":
 	[
 		"/D/C O D I N G/SilverSeaTest/Test/SearchResults",
-		"/D/C O D I N G/SilverSeaTest/Test/SearchResults/css"
+		"/D/C O D I N G/SilverSeaTest/Test/SearchResults/css",
+		"/D/C O D I N G/SilverSeaTest/Test/SearchResults/js"
 	],
 	"file_history":
 	[
+		"/D/C O D I N G/SilverSeaTest/Test/SearchResults/css/dimitra.css",
+		"/D/C O D I N G/Final/index.js",
+		"/D/C O D I N G/.git/COMMIT_EDITMSG",
+		"/D/C O D I N G/SilverSeaTest/Test/SearchResults/js/jquery.min.6f7f4a8e44e1862943a5892fcd366c15.js",
+		"/D/C O D I N G/SilverSeaTest/Test/SearchResults/css/main.min.731db1757391070f3ea2ead82acaf408.css",
+		"/D/C O D I N G/SilverSeaTest/Test/SearchResults/css/clientlib-base.min.612d2b2eb1fbfc076b9272b5c56daa75.css",
+		"/D/C O D I N G/SilverSeaTest/Test/SearchResults/css/clientlib-base.min.cff216f0d14947dbf26f221be1e0f516.css",
 		"/D/C O D I N G/BinaryTReeAlgorithm.js",
 		"/D/C O D I N G/SilverSeaTest/silver-moon.html",
 		"/D/C O D I N G/SilverSeaTest/australia-new-zealand-cruise.html",
@@ -407,6 +442,51 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"inne",
+			"btn-collapse-search",
+			"price",
+			"7905",
+			"</dd>",
+			"dd>",
+			"</dd>",
+			"c-fyc__",
+			"valpa",
+			"march ",
+			"more",
+			"h4",
+			"displ",
+			"bloc",
+			" col-sm-1",
+			"absol",
+			" col",
+			"p-2",
+			"search-menu",
+			"more",
+			"more</s",
+			"dropd",
+			"sele",
+			"custom",
+			"btn-collapse-search",
+			"jqu",
+			"sele",
+			"boot",
+			"js",
+			"more<",
+			"februa",
+			"\"js",
+			"c-hea",
+			"styles",
+			"header>",
+			"header",
+			"google",
+			"twitter",
+			"desc",
+			"bootstr",
+			"valpara",
+			"DM",
+			"caret\n",
+			"keyboard_arrow_down\n",
+			"<i class=\"material-icons\">\nkeyboard_arrow_down\n</i>",
 			"DM --",
 			"caret",
 			"san juan",
@@ -426,6 +506,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"</dd><i class=\"fas fa-chevron-right\"></i>",
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -451,15 +533,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 733639,
+						"buffer_size": 733669,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								604723,
-								604723
+								302872,
+								297619
 							]
 						],
 						"settings":
@@ -468,36 +550,50 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 172220.0,
+						"translation.y": 9456.8,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
 					"buffer": 1,
-					"file": "css/dimitra.css",
+					"file": "index2.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 394,
+						"buffer_size": 21860,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								58,
-								24
+								16360,
+								16360
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4551.2,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -505,31 +601,63 @@
 				},
 				{
 					"buffer": 2,
-					"file": "css/clientlib-base.min.cff216f0d14947dbf26f221be1e0f516.css",
-					"semi_transient": true,
+					"file": "js/custom.js",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 566494,
+						"buffer_size": 493,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								335,
+								335
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index3.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13623,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7116,
+								7116
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2645.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -541,7 +669,7 @@
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 37.6
 	},
 	"layout":
 	{
@@ -552,11 +680,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.418954664389,
 			1.0
 		],
 		"rows":
@@ -615,8 +750,8 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 320.0,
+	"side_bar_visible": false,
+	"side_bar_width": 286.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

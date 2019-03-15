@@ -1,0 +1,36 @@
+## Changes ##
+
+# index.html, line 685
+# The departure and duration filters are first, following how the 
+# results are showing. 
+#
+#
+
+# index.html, dimitra.css, custom.js
+# To top navigation was added. Configured for different screens and
+# invisible to small devices.
+#
+
+# index.html, line 1882
+# bootstrap class collapse was added 
+#
+
+# index.html, line 1944
+# added a material icon (watch later). by clicking on it, the user can 
+# store his/her prefered voyages.
+#
+
+# index2.html
+# In this file, I inserted all the necessary meta tags for best SEO, responsive etc (ie. meta 
+# vieport, description, keywords, meta og:title, meta:twitter:title). Also, the script for the google
+# analytics , favicons for different devices, stylesheets and js files.
+#
+
+# In order to complete the assignment, the following tools where used:
+# HTML, CSS, jQuery, Twitter Bootstrap, material icons
+# 
+
+# DISCLAIMER:
+# Except for the files custom.js , dimitra.css, index2.html and index.html
+# (where I have marked the changes that I made), the project is not my own 
+# work.

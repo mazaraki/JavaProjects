@@ -2,6 +2,14 @@
 	font-family: 'Suisse Regular',sans-serif !important;
 }
 
+/*to clean after*/
+.result__content__inner {
+	display: none;
+}
+
+
+/**/
+
 .seach-results * {
 	font-family: 'Freight Display Medium',serif !important;
 	background-color: #263133;
@@ -175,5 +183,117 @@ ul {
 	
 	select {
 		width: 100px;
+	}
+}
+
+/* for index.html*/
+.griddy-container {
+    display: grid;
+    grid-template-columns: 1fr 50% 1fr;
+    grid-template-rows: 2fr;
+    grid-column-gap: 0.5%;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+ }
+
+a#show-more.btn.btn-primary {
+	background-color: transparent;
+}
+
+i#show-more-caret.material-icons{
+	color: #d60524;
+}
+
+.going-up{
+	transform: rotate(180deg);
+}
+
+#div-to-top{
+	width: 5rem;
+	height: 5rem;
+	/*background-color: transparent;*/
+	position: relative;
+}
+
+a#back-to-top{
+	position: fixed;
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+    float: left;
+    top: 600px;
+    left: 1400px;
+    z-index: 10000;
+    background-color: transparent;
+}
+
+.transitional{
+	-webkit-transition: color 2s linear;
+	-moz-transition: color 2s linear;
+	-ms-transition: color 2s linear;
+	-o-transition: color 2s linear;
+	transition: color 2s linear;
+}
+
+
+div#div-to-top > a#back-to-top.btn.btn-primary.btn-lg.back-to-top > i#going-up.material-icons {
+	font-size: 4rem;
+	font-weight: 400;
+	z-index: 100000;
+	color: #007bff !important;
+
+}
+
+a.watch-later {
+	display: block !important;
+}
+
+a.watch-later > i{
+	color: black;
+}
+
+@media only screen and (max-width: 600px) {
+	a#back-to-top{
+	    visibility: hidden;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	a#back-to-top{
+	    visibility: hidden;
+	}
+} 
+
+@media only screen and (min-width: 768px) {
+	a#back-to-top{
+	    top: 400px;
+	    left: 700px;
+	}
+} 
+
+@media only screen and (orientation: landscape){
+	a#back-to-top{
+	    top: 600px;
+	    left: 800px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	a#back-to-top{
+	    top: 600px;
+	    left: 820px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	a#back-to-top{
+	    top: 600px;
+	    left: 950px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	a#back-to-top{
+	    top: 600px;
+	    left: 1300px;
 	}
 }
