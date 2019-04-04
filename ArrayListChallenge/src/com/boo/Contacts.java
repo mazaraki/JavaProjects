@@ -9,13 +9,13 @@ public class Contacts {
         this.phoneNumber = phoneNumber;
     }
 
-    public void setName(String name){
-        this.name = name;
-    }
-
-    public void setPhoneNumber(int phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
+//    public void setName(String name){
+//        this.name = name;
+//    }
+//
+//    public void setPhoneNumber(int phoneNumber) {
+//        this.phoneNumber = phoneNumber;
+//    }
 
     public String getName() {
         return name;
@@ -24,4 +24,9 @@ public class Contacts {
     public int getPhoneNumber() {
         return phoneNumber;
     }
+    //
+    public static Contacts createContact(String name, int phoneNumber){
+        return new Contacts(name, phoneNumber);
+    }
+            
 }

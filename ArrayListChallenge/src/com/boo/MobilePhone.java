@@ -4,9 +4,14 @@ import java.util.ArrayList;
 
 public class MobilePhone {
 
-    ArrayList<String> contacts = new ArrayList<String>();
+    //
+    ArrayList<Contacts> contacts;
 
-    public ArrayList<String> getContacts() {
+    public MobilePhone(ArrayList<Contacts> contacts) {
+        this.contacts = new ArrayList<>();
+    }
+
+    public ArrayList<Contacts> getContacts() {
         return contacts;
     }
 
@@ -19,13 +24,20 @@ public class MobilePhone {
         contacts.forEach(System.out::println);
     }
 
-    public void store(String name){
-        contacts.add(name);
-        System.out.println(name + " was added");
+
+
+    public boolean store(Contacts contact){
+        if(findPosition(contact.getName()) >= 0){
+            System.out.println("Contact is already on file");
+            return false;
+        }
+
+        contacts.add(contact);
+        return true;
     }
 
-    private int findPosition(String searchName){
-        return contacts.indexOf(searchName);
+    private int findPosition(Contacts contact){
+        return contacts.indexOf(contact);
     }
 
     public void modifyName(String currentName, String newName){
@@ -43,7 +55,7 @@ public class MobilePhone {
 
     public String queryName(String queryName){
         contacts.forEach(contact -> {
-            if(contact.equals(queryName)){
+            if(contact.getName().equals(queryName)){
                 System.out.println(contact + " exists");
             } else {
                 System.out.println(contact + " is not a contact");
